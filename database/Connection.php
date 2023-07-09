@@ -1,14 +1,14 @@
 <?php
 function Connection(){
-    /*$servername = "localhost";
+    $servername = "localhost";
     $username = "root";
     $password = "";
-    $database = "shop_pj";*/
+    $database = "shop_pj";
 
-    $servername = "localhost";
+    /*$servername = "localhost";
     $username = "elnvento_AgrStore";
     $password = "@grSt0re6502";
-    $database = "elnvento_AgrStore";
+    $database = "elnvento_AgrStore";*/
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
         // set the PDO error mode to exception
