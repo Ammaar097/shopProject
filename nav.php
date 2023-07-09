@@ -1,8 +1,8 @@
 <?php if (!isset($_SESSION)) {
     session_start();
 }
-include_once('./service/auth.php');
-include_once('./database/Product.php');
+include_once('service/auth.php');
+include_once('database/Product.php');
 isLogin();
 $product = new Product();
 $lost = $product->fetchLost();
