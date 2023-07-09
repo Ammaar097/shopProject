@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.main {
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+.mai {
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.mm {
+    margin-top: 1rem;
+    margin-left: 7rem;
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+th {
+    height: 50px;
+    width: 20%;
+}
+
+
+.ma {
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+
+.btn-g {
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    margin-top: 1rem;
+}
+
+
+.modal-header {
+    background-color: #7C904E;
+    height: 50px;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.modal-body1 {
+    text-align: center;
+    height: 70px;
+    margin-top: 3rem;
+}
+
+.btn2 {
+    margin-right: 4.3rem;
+    background-color: #7C904E;
+    color: #fff;
+    border: 0in;
+}
+
+.btn1 {
+    background-color: #fff;
+
+}
+
+.btn3 {
+    background-color: #7C904E;
+    color: #fff;
+    border: 0in;
+    border-radius: 25px;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.u {
+    width: 100px;
+}
+
+.h {
+    margin-left: 6rem;
+}
+
+.t {
+    background-color: #ABBE99;
+    height: 45px;
+    width: 100%;
+
+}
+
+.reset {
+    background-color: #E0B87E;
+    color: white;
+    border: 0ch;
+    margin-left: 4rem;
+}
+
+.btn-c {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20pt;
+    width: 60%;
+}
+
+.submit {
+    background-color: #7C904E;
+    color: white;
+    border: 0ch;
+}
+
+.a {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: -5rem;
+    margin-bottom: 1rem;
+}
+
+.inbox {
+    margin-left: 2rem
+}
+
+.productr {
+    margin-left: 0rem;
+}
+
+.productn {
+    margin-left: 0.65rem;
+}
+
+.ev {
+    margin-left: 1.8rem;
+}
+
+.comment {
+    margin-left: 5.3rem;
+}
+
+.status {
+    margin-left: -0.3rem;
+}
+
+.name {
+    margin-left: 8rem;
+}
+
+.tel {
+    margin-left: 6rem;
+}

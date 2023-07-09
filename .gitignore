@@ -1,0 +1,16 @@
+
+file/seller/card/
+file/seller/documents/
+file/seller/id/
+file/order/receipt/
+file/order/bankslip/
+file/order/invoice/
+src/images/
+file/product/image1/
+file/product/image2/
+file/debt/files/
+file/productexchange/
+file/employee/id/
+file/employee/address/
+*.xml
+service/dateTimejava.php

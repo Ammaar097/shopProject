@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: black;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px black;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.main {
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+.mai {
+    margin-left: 70rem;
+}
+
+.ma {
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+th {
+    height: 50px;
+    width: 15%;
+}
+
+select {
+    background-color: #ABBE99;
+    border: 0ch;
+    height: 90%;
+    width: 50%;
+    margin-left: 0.5rem;
+}
+
+.submit {
+    background-color: #7C904E;
+    border: 0ch;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.btnd {
+    background-color: #F8E4C8;
+    border-radius: 25px;
+    border: 1ch;
+
+    height: 90%;
+}
+
+.btn {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 16pt;
+    height: 100%;
+    width: 90%;
+}
+
+.s {
+    background: transparent;
+    border: 0px;
+    margin-left: -2.5rem;
+}
+
+.bgs {
+    border: 0ch;
+    background-color: white;
+}
+
+.c {
+    margin-left: 37rem;
+    font-size: 16pt;
+}
+
+.b {
+    margin-left: -4rem;
+}
+
+.a {
+    margin-top: 0rem;
+    margin-left: -0.5rem;
+}
+
+/*ลบ*/
+
+.modal-title {
+    color: white;
+}
+
+.modal-header {
+    background-color: #688557;
+}
+
+.modal-footer {
+    background-color: #D4DDC6;
+}
+
+.modal-title2 {
+    color: white;
+}
+
+.btn-primary2 {
+    background-color: #7C904E;
+    color: white;
+    border: 0ch;
+    width: 10rem;
+}
+
+.modal-body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}

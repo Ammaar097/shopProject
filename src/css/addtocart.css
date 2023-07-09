@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.main {
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 10rem;
+}
+
+th {
+    height: 50px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.btnd {
+    background-color: #F8E4C8;
+    border-radius: 25px;
+    border: 1ch;
+    width: 70%;
+    height: 150%;
+}
+
+.BTNC {
+    background-color: #7C904E;
+    color: #000;
+    border-radius: 25px;
+    font-size: 16pt;
+    display: inline-block;
+    width: 65%;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.BTNP {
+    background-color: #fff;
+    color: #A36627;
+    border: 0in;
+
+}
+
+.btn-d {
+    border-radius: 25px 25px 25px 25px;
+    background-color: #F8E4C8;
+    border: 0ch;
+    width: 65%;
+    margin-left: 5rem;
+}
+
+.modal-header {
+    background-color: #7C904E;
+    height: 60px;
+}
+
+.l {
+    margin-bottom: -1rem;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.modal-body1 {
+    text-align: center;
+    height: 70px;
+    margin-top: 3rem;
+}
+
+.btn-primary1 {
+
+    background-color: #7C904E;
+    color: #fff;
+    border: 0in;
+}
+
+.btn {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 16pt;
+    width: 20%;
+}
+
+.editnumber {
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+
+.allprice {
+    margin-top: 1rem;
+    margin-left: 2.6rem;
+    font-size: 16pt;
+}
+
+.receivecash {
+    margin-top: 1rem;
+    margin-left: 2.6rem;
+    font-size: 16pt;
+
+}
+
+.change {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+.fo {
+    font-size: 20pt;
+}
+
+.mt {
+    margin-top: 1rem;
+    margin-left: -1rem;
+    text-align: left;
+}
+
+.re {
+    width: 30%;
+    text-align: right;
+}
+
+.inbox {
+    margin-left: 2rem;
+}
+
+.inbox1 {
+    margin-left: -1rem;
+    margin-top: 1rem;
+}
+
+.exp {
+    font-size: 16pt;
+}
+
+.amount {
+    font-size: 16pt;
+    margin-top: 1rem;
+    margin-left: 2.2rem;
+}
+
+.importfile {
+    margin-left: 2rem;
+    font-size: 16pt;
+}
+
+.im {
+    margin-top: 0.5rem;
+
+}
+
+.notice {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+
+}
+
+.noticetext {
+    font-size: 16pt;
+    color: #000;
+}
+
+.detail {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.de {
+    margin-left: 1rem;
+}
+
+.email {
+    font-size: 16pt;
+    margin-left: 0.7rem;
+}
+
+.password {
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+    font-size: 16pt;
+}
+
+.object {
+    padding: 1rem;
+}
+
+.bgs {
+    background-color: #fff;
+    border: 2px solid gray;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    min-height: 90px;
+    min-width: 90px;
+    width: max-content;
+    margin: 10px 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0.19, 0.19, 0.19, 0.19);
+    display: block;
+}
+
+.delete {
+    margin-bottom: 0rem;
+}
+
+.edit {
+    margin-top: 0.69rem;
+}
+
+.tablesales {
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.s {
+    background: transparent;
+    border: 0px;
+    margin-left: -2rem;
+}
+
+.TRTOPICCSS {
+    background-color: #ABBE99;
+    height: 45px;
+}
+
+.u {
+    width: 100px;
+}
+
+.h {
+    margin-left: 6rem;
+}
+
+.w {
+    margin-left: 12rem;
+}
+
+.TEXTNOTICE {
+    color: #000;
+    margin-top: auto;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.modal-title2 {
+    color: white
+}
+
+.topic_product {
+    background-color: #fff;
+    border: 0px solid gray;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow-wrap: break-word;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+}
+
+.salestocontracttable {
+    margin: auto;
+    margin-top: 3rem;
+}

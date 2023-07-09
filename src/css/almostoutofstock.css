@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: black;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px black;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.main {
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+.ma {
+    margin-top: 1rem;
+    margin-left: 75rem;
+}
+
+.mai {
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+th {
+    height: 50px;
+    width: 20%;
+}
+
+select {
+    background-color: #ABBE99;
+    border: 0ch;
+}
+
+option {
+    background-color: #D4DDC6;
+    border: 0ch;
+}
+
+.bnt {
+    border-radius: 25px 25px 25px 25px;
+    background-color: #F8E4C8;
+}
+
+.btn-d {
+    border-radius: 25px 25px 25px 25px;
+    background-color: #F8E4C8;
+    border: 0ch;
+    margin-left: -2rem;
+
+}
+
+.s {
+    background: transparent;
+    border: 0px;
+    margin-left: -2rem;
+}
+
+.n {
+    margin-top: 1rem;
+    margin-left: 4rem;
+
+}

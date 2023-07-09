@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+
+}
+
+body {
+    background: white;
+}
+
+.content {
+    background: white;
+}
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.main {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+.mam {
+    font-size: 18pt;
+    margin-top: 0.5rem;
+    margin-left: 17rem;
+}
+
+.mamm {
+    margin-left: 17.9rem;
+}
+
+.kk {
+    margin-left: 36.5rem;
+}
+
+
+.g {
+    width: 130px;
+    border: 0in;
+    background-color: #ABBE99;
+    margin-top: -3.4rem;
+}
+
+.tt {
+    color: #000;
+    margin-left: 4.2rem;
+}
+
+.th {
+    width: 95%;
+    height: 72px;
+    background-color: #ABBE99;
+    box-sizing: border-box;
+    margin-left: 1.5rem;
+    margin-top: -2.5rem;
+}
+
+.s {
+    margin-left: 1rem;
+    border: 0ch;
+    width: 5%;
+    height: 100%;
+    background-color: #C4C4C4;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 1rem;
+}
+
+
+.f {
+    margin-top: 2rem;
+    margin-left: 30pt;
+    text-indent: 280px;
+    color: black;
+}
+
+.y {
+    text-indent: 300px;
+}
+
+.w {
+    text-indent: 800px;
+}
+
+.q {
+    margin-top: 2rem;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+table {
+    margin-left: 15rem;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+
+}
+
+td,
+th {
+    border: 0px solid;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(odd) {
+    background-color: #FBEDD8;
+}
+
+tr:nth-child(even) {
+    background-color: #FFF8ED;
+}

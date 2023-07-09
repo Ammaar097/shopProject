@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.row {
+    --bs-gutter-x: 0;
+    max-width: 99%;
+
+}
+
+.col-11 {
+    margin-bottom: 4rem;
+}
+
+.main {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    width: 70%;
+
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+/*.th {
+    width: 200px;
+    height: 60px;
+    border: 2px solid brown;
+    box-sizing: border-box;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}*/
+
+.tt {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.bb {
+    margin-left: 2rem
+}
+
+.cc {
+    margin-left: 1.4rem
+}
+
+.leftseller {
+    margin-left: 10.8rem;
+    margin-top: 2rem;
+}
+
+.d {
+    color: red;
+    margin-left: 6.1rem;
+    margin-top: -1.8rem;
+}
+
+.leftsellername {
+    margin-left: 10.7rem;
+    margin-top: 1rem;
+}
+
+.a {
+    color: red;
+    margin-left: 4.2rem;
+    margin-top: -1.8rem;
+}
+
+.leftidentification {
+    margin-left: 6.9rem;
+    margin-top: 1rem;
+}
+
+.c {
+    color: red;
+    margin-left: 10rem;
+    margin-top: -1.8rem;
+}
+
+.leftaddress {
+    margin-left: 14.2rem;
+    margin-top: 1rem;
+}
+
+.l {
+    color: red;
+    margin-left: 0rem;
+    margin-top: -1.8rem;
+}
+
+.lefttelephone {
+    margin-left: 11.2rem;
+    margin-top: 1rem;
+}
+
+.e {
+    color: red;
+    margin-left: 6.5rem;
+    margin-top: -1.8rem;
+}
+
+.leftwebsite {
+    margin-left: 9.0rem;
+    margin-top: 1rem;
+}
+
+.leftfirst {
+    margin-left: 15rem;
+    margin-top: 1rem;
+}
+
+.f {
+    color: red;
+    margin-left: 2rem;
+    margin-top: -1.8rem;
+}
+
+.leftlast {
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+
+.g {
+    color: red;
+    margin-left: 4.1rem;
+    margin-top: -1.8rem;
+}
+
+.leftnick {
+    margin-left: 13.5rem;
+    margin-top: 1rem;
+}
+
+.h {
+    color: red;
+    margin-left: 3.4rem;
+    margin-top: -1.8rem;
+}
+
+.leftemail {
+    margin-left: 11.2rem;
+
+}
+
+.i {
+    color: red;
+    margin-left: 2.8rem;
+    margin-top: -1.8rem;
+}
+
+.leftnumber2 {
+    margin-left: 10.6rem;
+    margin-top: 1rem;
+}
+
+.j {
+    color: red;
+    margin-left: 6.5rem;
+    margin-top: -1.8rem;
+}
+
+.channel {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.leftidline {
+    margin-left: 9.0rem;
+    margin-top: 1rem;
+}
+
+.leftfile {
+    margin-left: 10.6rem;
+    margin-top: 1rem;
+}
+
+.k {
+    color: red;
+    margin-left: 6.3rem;
+    margin-top: -1.8rem;
+}
+
+.leftpng {
+    margin-left: 10rem;
+    margin-top: 1rem;
+    color: black;
+}
+
+.ttb {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    color: black;
+}
+
+.ma {
+    margin-left: 52.5rem;
+}
+
+.mai {
+    margin-top: 1rem;
+    margin-left: 19rem;
+}
+
+.btn-g {
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+}
+
+.btn-c {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20pt;
+    width: 60%;
+}
+
+.submit {
+    background-color: #7C904E;
+    color: white;
+    border: 0ch;
+}
+
+.reset {
+    background-color: #E0B87E;
+    color: white;
+    border: 0ch;
+    margin-left: 4rem;
+}
+
+.bgs {
+    border: 0ch;
+    background-color: white;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.leftfile2 {
+    margin-left: 12.8rem;
+    margin-top: 1rem;
+}
+
+.leftfile3 {
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+
+.leftnote {
+    margin-left: 12rem;
+    margin-top: 1rem;
+}
+
+.btn-g {
+    width: 100%;
+    justify-content: end;
+    display: flex;
+}
+
+.btn-c {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20pt;
+    width: 60%;
+}
+
+.submit {
+    background-color: #7C904E;
+    color: white;
+    border: 0ch;
+}
+
+.reset {
+    background-color: #E0B87E;
+    color: white;
+    border: 0ch;
+    margin-left: 4rem;
+}
+
+.ml {
+    margin-left: 5rem;
+}
+
+/*modal เพิ่มบัญชีใหม่*/
+
+.leftnumber {
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.leftbank {
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+}
+
+
+.leftanb {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.leftan {
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary1 {
+    color: white;
+    background-color: #A36627;
+}
+
+.btn-primary1:hover {
+    color: white;
+}
+
+.modal-title {
+    color: white;
+}
+
+.modal-header {
+    background-color: #688557;
+}
+
+.modal-footer {
+    background-color: white;
+}
+
+/*ลบ*/
+
+.btn-primary2 {
+    background-color: #7C904E;
+    color: white;
+    border: 0ch;
+}
+
+.modal-body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.modal-title2 {
+    color: white;
+}
