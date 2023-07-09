@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.BgLeft {
+    background-color: #688557;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.BgRight {
+    background-color: #ffff;
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.inLeft {
+    background-color: #E0B87E;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    --bs-gutter-x: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head {
+    width: auto;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 28pt;
+    color: #A36627;
+}
+
+.bi {
+    margin-left: -50px;
+    margin-top: -10px;
+    font-size: 25pt;
+}
+
+.text-login {
+    margin-bottom: 5rem;
+}
+
+h1 {
+    font-size: 35pt;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.field {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20pt;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2rem;
+    border: 0pt;
+}
+
+.BTN {
+    margin-top: 2rem;
+    width: 30%;
+    justify-content: end;
+    display: flex;
+    width: 100%;
+}
+
+.button {
+    margin-right: 5rem;
+    background-color: #A36627;
+}
+
+form {
+    width: 80%;
+}
+
+.input {
+    background-color: #E0DDDD;
+}
+
+.label {
+    font-size: 16pt;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    margin-bottom: 0.75rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .inLeft {
+        height: 80%;
+    }
+
+    .button {
+        width: 40%;
+    }
+
+    .icon {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .inLeft {
+        height: 90%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .inLeft {
+        height: 25%;
+    }
+
+    .button {
+        width: 20%;
+    }
+
+    .icon {
+        width: 120px;
+        height: 120px;
+    }
+}

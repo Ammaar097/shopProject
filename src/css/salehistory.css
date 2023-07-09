@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.main {
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+table,
+td,
+th {
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    height: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 10%;
+    margin-left: 10rem;
+}
+
+.col-12 {
+    margin-left: 1rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+
+.col-10 {
+    margin-top: 1rem;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.saletable {
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.dateS {
+    margin-right: 0.5rem;
+}
+
+.dateE {
+    margin-left: 1rem;
+}
+
+.s {
+    margin-left: 1rem;
+    border: 0ch;
+    width: 15%;
+    height: 100%;
+    background-color: #C4C4C4;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.d-flex {
+    margin-left: 2rem;
+}
+
+.reset {
+    background-color: #C4C4C4;
+    color: black;
+    border: 0ch;
+    margin-left: 0rem;
+}
+
+.btn-c {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 18pt;
+    width: 80%;
+    height: 100%;
+}
+.bgs{
+    text-decoration: none;
+}

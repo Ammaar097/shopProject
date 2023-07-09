@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.main {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    width: 87%;
+
+}
+
+.ma {
+    margin-left: 10rem;
+}
+
+.col-11 {
+    margin-bottom: 2rem;
+}
+
+.sign {
+    margin-right: 5rem;
+}
+
+.C {
+    text-align: center;
+}
+
+table,
+td,
+th {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.th {
+    height: 100px;
+
+}
+
+.pr {
+    margin-left: 1.2rem;
+}
+
+.btn-g {
+    margin-left: 0rem;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.btn-c {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20pt;
+    width: 60%;
+}
+
+.submit {
+    background-color: #7C904E;
+    color: white;
+    border: 0ch;
+}
+
+.reset {
+    background-color: #E0B87E;
+    color: white;
+    border: 0ch;
+    margin-left: 4rem;
+}
+
+.inbox3 {
+    width: 20%;
+}
+
+
+.col-6 {
+    text-align: center;
+}
+
+.col-12 {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 5rem;
+}
+
+.col-12 {
+    margin-bottom: 2rem;
+}
+
+.A {
+    margin-top: 1rem;
+    margin-left: -30rem;
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+.col-10 {
+    margin-top: 1rem;
+}
+
+.btn-primary1 {
+    background-color: #7C904E;
+    color: #fff;
+    border: 0in;
+}
+
+.modal-header {
+    background-color: #7C904E;
+    height: 50px;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.modal-body1 {
+    text-align: center;
+    height: 70px;
+    margin-top: 2rem;
+}
+
+.btn2 {
+
+    background-color: #7C904E;
+    color: #fff;
+    border: 0in;
+    border-radius: 25px;
+    height: 30px;
+    width: 150px;
+}
+
+.cc {
+    margin-left: 4rem;
+}
+
+.ccc {
+    margin-left: -2.5rem;
+}
+
+.btn1 {
+    background-color: #fff;
+
+}
+
+.btn3 {
+    background-color: #7C904E;
+    color: #fff;
+    border: 0in;
+    border-radius: 25px;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.w {
+    margin-left: 1.5rem;
+}
+
+.datebill {
+    margin-left: 15rem;
+    margin-bottom: 1rem;
+}
+
+.company {
+    margin-left: 16rem;
+}
+
+.rein {
+    margin-left: 16.5rem;
+}
+
+.leftpng {
+    margin-top: 1rem;
+    margin-left: 16.5rem;
+    margin-bottom: 2rem;
+}
+
+.payment_sl {
+    margin-left: 13.5rem;
+}
+
+.payment {
+    margin-left: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.note {
+    margin-top: 1rem;
+    margin-left: 15.5rem;
+    margin-bottom: 1rem;
+}
+
+.h {
+    margin-top: 1rem;
+    margin-left: 14.5rem;
+}
+
+.hh {
+    margin-top: 1rem;
+    margin-left: 14.2rem;
+
+}
+
+.j {
+    margin-top: 1rem;
+}
+
+.q {
+    margin-left: -4.9rem;
+    margin-top: 1rem;
+}
+
+.s {
+    margin-left: -2rem;
+    margin-top: 1rem;
+}
+
+.ss {
+    margin-left: -0.3rem;
+    margin-top: 1rem;
+}
+
+.u {
+    width: 100px;
+}
+
+
+
+.listother {
+    margin-left: 2rem;
+}
+
+.priceother {
+    margin-left: 3rem;
+}
+
+
+.topic {
+    margin-top: 0.5rem;
+}
+
+.status {
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+}
+
+.pay {
+    margin-top: 2rem;
+}
+
+
+.font {
+    font-size: 23px;
+}
+
+.inbox {
+    width: 16%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: black;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px black;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

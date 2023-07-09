@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.main {
+    margin-top: 6rem;
+    margin-left: 5rem;
+    color: #688557;
+}
+
+.mai {
+    margin-top: 1rem;
+    margin-left: 5rem;
+
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+.line {
+    width: 550px;
+    height: 10px;
+    background-color: #E0B87E;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.button {
+    background: #7C904E;
+    color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 1rem;
+    border: 0px;
+    font-size: 18pt;
+}
+
+.textboard {
+    margin-left: 3rem;
+}
+
+.scoreboard {
+    background: #ABBE99;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-left: 2rem;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.search {
+    margin-left: 1rem;
+    border: 0ch;
+    width: 8%;
+    height: 66%;
+    background-color: #C4C4C4;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.board {
+    margin-left: 7rem;
+    margin-top: 2rem;
+
+}
+
+.brr {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.welcome {
+    margin-left: 0rem;
+}
+
+.result {
+    font-size: 22pt;
+}
+
+.topicdata {
+    font-size: 20pt;
+    padding: 6pt;
+}
+
+.box1 {
+    width: 600px;
+    height: 40px;
+    background-color: #C4C4C4;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+.t {
+    color: #000;
+    margin-top: 0.6rem;
+    font-size: 20pt;
+}
+
+.num {
+    margin-left: 0rem;
+}
+
+.box2 {
+    width: 120px;
+    height: 40px;
+    background-color: #7C904E;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    margin-left: 45rem;
+}
+
+.n {
+    margin-top: 1rem;
+    margin-left: 12.5rem;
+}
+
+.nn {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.nnn {
+    margin-top: 1rem;
+}
+
+.a:hover .b:hover .c:hover {
+    color: white;
+}
+
+.a {
+    margin-left: 1rem;
+    font-size: 18pt;
+    width: 150px;
+    background-color: #ABBE99;
+    border: 0in;
+}
+
+.b {
+    margin-left: 1rem;
+    font-size: 18pt;
+    width: 150px;
+    height: 50%;
+    background-color: #ABBE99;
+    border: 0in;
+}
+
+.c {
+    margin-left: 1rem;
+    font-size: 18pt;
+    width: 150px;
+    height: 50%;
+    background-color: #ABBE99;
+    border: 0in;
+}
+
+.d {
+    margin-left: 1rem;
+    font-size: 18pt;
+    width: 350px;
+    background-color: #ABBE99;
+    border: 0in;
+}

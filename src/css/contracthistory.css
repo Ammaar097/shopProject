@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.main {
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+.arrow {
+    margin-top: -0.2rem;
+}
+
+.plus {
+    margin-top: -0.2rem;
+}
+
+a {
+    color: #A36627;
+    text-decoration: none;
+}
+
+.tt {
+    margin-top: 0.5rem;
+}
+
+table,
+td,
+th {
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 10%;
+    margin-left: 10rem;
+}
+
+th {
+    height: 50px;
+}
+
+.ma {
+    margin-left: 6rem;
+}
+
+.submit {
+    background-color: #7C904E;
+    border: 0ch;
+    color: white;
+}
+
+.btn {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 16pt;
+    width: 75%;
+    height: 90%;
+}
+
+.btnd {
+    background-color: #F8E4C8;
+    border-radius: 25px;
+
+    height: 90%;
+}
+
+.bgs {
+    border: 0ch;
+    background-color: white;
+}
+
+
+.contracttable {
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+}
+
+.x {
+    margin-left: -2rem;
+}
+
+.y {
+    font-size: 13pt;
+    margin-left: 55rem;
+    margin-top: 0rem;
+
+}
+
+.v {
+    margin-left: -2rem;
+}
+
+.BTNC {
+    background-color: #7C904E;
+    color: #000;
+    border-radius: 25px;
+    font-size: 16pt;
+    display: inline-block;
+    width: 65%;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.s {
+    background: transparent;
+    border: 0px;
+    margin-left: -2rem;
+}
+
+.BTNP {
+    background-color: #fff;
+    color: #A36627;
+    border: 0in;
+
+}
+
+.g {
+    background: transparent;
+    border: 0px;
+}
+
+.k {
+    color: red;
+    margin-left: 7rem;
+    margin-top: -3.5rem;
+}
+
+
+
+/*modal เพิ่มบัญชีใหม่*/
+
+.leftnumber {
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.leftbank {
+    margin-top: 1rem;
+    margin-left: 3.1rem;
+}
+
+
+.leftanb {
+    margin-top: 1rem;
+    margin-left: 2.9rem;
+}
+
+.leftan {
+    margin-top: 1rem;
+    margin-left: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+/*.btn-primary1 {
+    color: white;
+    background-color: #A36627;
+}*/
+
+.btn-primary1:hover {
+    color: white;
+}
+
+.modal-title {
+    color: white;
+}
+
+.modal-header {
+    background-color: #688557;
+}
+
+.modal-footer {
+    background-color: white;
+}
+
+/*ลบ*/
+
+.btn-primary2 {
+    background-color: #7C904E;
+    color: white;
+    border: 0ch;
+}
+
+.modal-body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.modal-title2 {
+    color: white;
+}

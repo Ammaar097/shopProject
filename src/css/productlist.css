@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.main {
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 10%;
+    margin-left: 10rem;
+}
+
+th {
+    height: 70px;
+}
+
+.btnd {
+    background-color: #F8E4C8;
+    border-radius: 25px;
+    height: 85%;
+    width: 90%;
+    font-size: 16pt;
+}
+
+.n {
+    background-color: #D4DDC6;
+    height: 85%;
+    width: 70%;
+    font-size: 16pt;
+}
+
+.BTNC {
+    background-color: #7C904E;
+    color: #000;
+    border-radius: 25px;
+    font-size: 16pt;
+    display: inline-block;
+    width: 65%;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.BTNP {
+    background-color: #fff;
+    color: #A36627;
+    border: 0in;
+
+}
+
+.btn-d {
+    border-radius: 25px 25px 25px 25px;
+    background-color: #F8E4C8;
+    border-radius: 25px;
+    width: 65%;
+    margin-left: 5rem;
+}
+
+.q {
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.z {
+    color: black;
+    width: fit-content;
+}
+
+.fitcontent {
+    width: fit-content;
+}
+
+.topic_all {
+    border: 1px solid green;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+    background-color: #fff;
+    color: black;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 0px 10px 5px;
+    box-shadow: 0px 0px 4px 4px rgba(0.15, 0.15, 0.15, 0.15);
+    display: block;
+}
+
+.topic_product {
+    vertical-align: top;
+    background-color: #fff;
+    border: 0px solid gray;
+    color: black;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    font-size: 16px;
+    height: 99%;
+    width: 99%;
+    margin: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 3px 3px rgba(0.1, 0.1, 0.1, 0.1);
+    display: block;
+}
+
+.dynamicBT {
+    background-color: whitesmoke;
+    font-size: 21px;
+    color: black;
+    solid-color: black;
+    height: 55%;
+    width: 130%;
+    border-radius: 25px 25px 25px 25px;
+    border: 0px;
+    transition: background-color 0.5s ease-out;
+    box-shadow: 0px 0px 2px 2px rgba(0.6, 0.6, 0.6, 0.6), 0px 0px 6px 6px rgba(0.2, 0.2, 0.2, 0.2)
+}
+
+.dynamicBT:hover {
+    background-color: black;
+    font-size: 21px;
+    color: white;
+    solid-color: white;
+    height: 55%;
+    width: 130%;
+    border-radius: 25px 25px 25px 25px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.dynamicPT:hover {
+    background-color: gray;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.bb {
+    margin-left: 0rem;
+}
+
+.l {
+    background: transparent;
+    border: 0px;
+    margin-left: -3rem;
+    margin-top: 0rem;
+}
+
+.u {
+    margin-left: 6rem;
+}
+
+.m {
+    margin-left: 0rem;
+}
+
+.a {
+    margin-left: -1rem;
+}
+
+.inbox {
+    margin-left: 2rem;
+}
+
+.exp {
+    font-size: 14pt;
+}
+
+.amount {
+    font-size: 14pt;
+    margin-top: 1rem;
+    margin-left: 2.2rem;
+}
+
+.bell {
+    border: 2px solid red;
+    border-radius: 25px;
+    background: red;
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin-top: -7px;
+    margin-left: 2rem;
+    position: absolute;
+    font-size: 20pt;
+    text-align: center;
+    z-index: 1000;
+}

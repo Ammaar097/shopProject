@@ -1,0 +1,46 @@
+.bell {
+    border: 2px solid red;
+    border-radius: 25px;
+    background: red;
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-top: -7px;
+    margin-left: -3px;
+    position: absolute;
+    font-size: 7pt;
+    text-align: center;
+    z-index: 1000;
+}
+
+.bell:hover {
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+    color: black;
+    margin-top: -7px;
+    margin-left: -3px;
+    position: absolute;
+    font-size: 7pt;
+    text-align: center;
+    z-index: 1000;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.role {
+    margin-left: -4rem;
+}
+
+.navbar1 {
+    background-color: #edb083;
+    box-shadow: 0px 0px 2px 2px rgba(0.6, 0.6, 0.6, 0.6);
+}
+
+
+
+.BT:hover {
+    color: white;
+    cursor: pointer;
+}

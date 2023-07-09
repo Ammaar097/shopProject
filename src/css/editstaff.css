@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 16pt;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.col-11 {
+    margin-bottom: 2rem;
+}
+
+.main {
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.Nbar {
+    margin-top: 3.5rem;
+}
+
+.mai {
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.mm {
+    background-color: #F8E4C8;
+}
+
+.m {
+    text-align: center;
+}
+
+.bb {
+    margin-left: 1rem;
+}
+
+.cc {
+    margin-left: 0.3rem
+}
+
+.leftmodel {
+    margin-left: 5.3rem;
+    margin-top: 1rem;
+}
+
+.a {
+    color: red;
+    margin-left: 7.3rem;
+    margin-top: -1.8rem;
+}
+
+.ma {
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+
+.leftstartwork {
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+
+.b {
+    color: red;
+    margin-left: 5.8rem;
+    margin-top: -1.8rem;
+}
+
+
+.leftname {
+    margin-left: 10.8rem;
+    margin-top: 1rem;
+}
+
+.c {
+    color: red;
+    margin-left: 2rem;
+    margin-top: -1.8rem;
+}
+
+.leftlastname {
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+.d {
+    color: red;
+    margin-left: 4.2rem;
+    margin-top: -1.8rem;
+}
+
+.leftidcardnumber {
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.leftbirthday {
+    margin-left: 3.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.leftaddress {
+    margin-left: 10.2rem;
+    margin-top: 1rem;
+}
+
+.l {
+    color: red;
+    margin-left: 2.6rem;
+    margin-top: -1.8rem;
+}
+
+.lefttelephone {
+    margin-left: 8.5rem;
+    margin-top: 1rem;
+}
+
+.g {
+    color: red;
+    margin-left: 4.2rem;
+    margin-top: -1.8rem;
+}
+
+.leftemail {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.h {
+    color: red;
+    margin-left: 2.9rem;
+    margin-top: -1.8rem;
+}
+
+.leftpassword {
+    margin-left: -2.5rem;
+}
+
+.i {
+    color: red;
+    margin-left: 4.2rem;
+    margin-top: -1.8rem;
+}
+
+.leftn {
+    margin-top: 1rem;
+    margin-left: 3.9rem;
+}
+
+.j {
+    color: red;
+    margin-left: 8.8rem;
+    margin-top: -1.8rem;
+}
+
+.leftnb {
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+.k {
+    color: red;
+    margin-left: 8rem;
+    margin-top: -1.8rem;
+}
+
+.leftpng {
+    margin-left: 2.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+th {
+    height: 50px;
+    width: 20%;
+}
+
+.wh {
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.d-flex {
+
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+
+}
+
+.btn-g {
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.btn-c {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20pt;
+    width: 60%;
+}
+
+.submit {
+    background-color: #7C904E;
+    color: white;
+    border: 0ch;
+    margin-bottom: 2rem;
+}
+
+.reset {
+    background-color: #E0B87E;
+    color: white;
+    border: 0ch;
+    margin-left: 4rem;
+}
+
+.bgs {
+    border: 0ch;
+    background-color: white;
+}
+
+
+/*modal เพิ่มบัญชีใหม่*/
+
+.leftnumber {
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.leftbank {
+    margin-top: 1rem;
+    margin-left: 3.1rem;
+}
+
+
+.leftanb {
+    margin-top: 1rem;
+    margin-left: 2.9rem;
+}
+
+.leftan {
+    margin-top: 1rem;
+    margin-left: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary1 {
+    color: white;
+    background-color: #A36627;
+}
+
+.btn-primary1:hover {
+    color: white;
+}
+
+.modal-title {
+    color: white;
+}
+
+.modal-header {
+    background-color: #688557;
+}
+
+.modal-footer {
+    background-color: white;
+}
+
+/*ลบ*/
+
+.modal-title2 {
+    color: white;
+}
+
+.btn-primary2 {
+    background-color: #7C904E;
+    color: white;
+    border: 0ch;
+}
+
+.modal-body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
